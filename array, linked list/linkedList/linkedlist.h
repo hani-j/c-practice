@@ -1,6 +1,8 @@
 #ifndef _LINKEDLIST_
 #define _LINKEDLIST_
 
+#include <stdlib.h>
+
 typedef struct ListNodeType
 {
 	int data;
@@ -9,8 +11,8 @@ typedef struct ListNodeType
 
 typedef struct LinkedListType
 {
-	int currentElementCount;	// ���� ����� ������ ����
-	ListNode headerNode;		// ��� ���(Header Node)
+	int currentElementCount;	// 현재 저장된 원소의 개수
+	ListNode headerNode;		// 헤더 노드(Header Node)
 } LinkedList;
 
 LinkedList* createLinkedList();
