@@ -3,3 +3,5 @@
 *.out
 
 Makefile
+
+.DS_Store
